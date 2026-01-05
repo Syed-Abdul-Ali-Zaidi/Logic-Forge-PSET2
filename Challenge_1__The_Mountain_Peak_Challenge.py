@@ -9,3 +9,16 @@ def count_ways_to_summit(n : int):
         a = b
         b = c
     return c
+
+
+n = 45
+print('Steps =',n)
+
+import time
+start_time = time.perf_counter()  # Record start
+ways = count_ways_to_summit(5)
+end_time = time.perf_counter()    # Record end
+elapsed_time = end_time - start_time
+
+print('Number of ways =',ways)
+print(f"Time taken: {elapsed_time} seconds")
