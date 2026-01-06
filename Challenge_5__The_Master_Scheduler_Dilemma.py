@@ -9,7 +9,3 @@ def min_cancelled_bookings(intervals : list):
             intervals_to_remove += 1
 
     return intervals_to_remove
-
-
-a =min_cancelled_bookings([[1, 2], [5, 10], [18, 35]])
-print(a)
