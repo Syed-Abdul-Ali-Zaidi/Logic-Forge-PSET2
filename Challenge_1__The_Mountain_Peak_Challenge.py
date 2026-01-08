@@ -10,7 +10,7 @@ def count_ways_to_summit(n : int):
         b = c
     return c
 
-
+# Done!
 # n = 45
 # print('Steps =',n)
 #
@@ -21,4 +21,5 @@ def count_ways_to_summit(n : int):
 # elapsed_time = end_time - start_time
 #
 # print('Number of ways =',ways)
+
 # print(f"Time taken: {elapsed_time} seconds")
