@@ -13,5 +13,7 @@ def calculate_minimum_speed(piles : list,k : int):
             Min = speed + 1
     return Max
 
+# Done!
 # Piles = [5, 10, 3]
+
 # print(calculate_minimum_speed(Piles,4))
