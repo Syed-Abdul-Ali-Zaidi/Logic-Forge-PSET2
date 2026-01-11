@@ -10,7 +10,10 @@ def min_cancelled_bookings(intervals : list):
         else:
             previous_end_time = intervals[i][1]
 
-
     return intervals_to_remove
 
 # Done!
+# Requests = [[1, 2], [5, 10], [18, 35]]
+# # Output = min_cancelled_bookings(Requests)
+# # print("Requests:",Requests)
+# # print("Output:",Output)
