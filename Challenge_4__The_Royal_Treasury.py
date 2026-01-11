@@ -1,7 +1,7 @@
 def count_payment_combinations(coins, total_sum):
     arr = []
     coin_count = len(coins)
-    for i in range(coin_count):
+    for i in range(coin_count): # Creating 2D_arr where cols = 0 to total_sum & rows = no._of_coins
         arr += [[0 for j in range(total_sum+1)]]
 
     for i in range(coin_count):
@@ -12,9 +12,8 @@ def count_payment_combinations(coins, total_sum):
             else:
                 arr[i][j] = arr[i-1][j] + arr[i][j-coins[i]]
 
-    for i in arr:
-        print(i)
-    print(arr[coin_count-1][total_sum])
+    # Bottom_right element of 2D_arr will be the answer
+    return arr[coin_count-1][total_sum]
 
-
-count_payment_combinations([4],5)
+# Done!
+print(count_payment_combinations([2],3))
