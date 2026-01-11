@@ -15,5 +15,10 @@ def count_payment_combinations(coins, total_sum):
     # Bottom_right element of 2D_arr will be the answer
     return arr[coin_count][total_sum]
 
-# Done!
-# print(count_payment_combinations([2],3))
+# # Done!
+# Target_Sum = 10
+# Vault_Coins = [2, 5, 3, 6]
+# Total_Ways = count_payment_combinations(Vault_Coins,Target_Sum)
+# print("Target Sum:",Target_Sum)
+# print("Vault_Coins:",Vault_Coins)
+# print("Output:",Total_Ways)
