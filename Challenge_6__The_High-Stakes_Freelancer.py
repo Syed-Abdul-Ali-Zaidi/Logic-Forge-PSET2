@@ -23,7 +23,12 @@ def maximize_freelance_profit(deadlines, profits):
                 Job_count += 1
                 break
 
-
     return f'[{Job_count} Jobs, {Profits} Profit]'
 
-# Done!
+# # Done!
+# Deadlines = [2, 1, 2, 1, 1]
+# Profits = [100, 19, 27, 25, 15]
+# Output = maximize_freelance_profit(Deadlines,Profits)
+# print("Deadlines:",Deadlines)
+# print("Profits:",Profits)
+# print("Output:",Output)
