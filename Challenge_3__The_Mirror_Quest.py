@@ -28,7 +28,7 @@ def find_longest_mirror_length(s : str):
     return right_length
 
 # Done!
-# word = 'bbabcbcab'
-# length = find_longest_mirror_length(word)
-
-# print(length)
+word = 'mapam'
+length = find_longest_mirror_length(word)
+print("Input:",word)
+print("Output:",length)
